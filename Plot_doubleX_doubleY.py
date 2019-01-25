@@ -38,7 +38,6 @@ axl.set_ylabel('Left title', fontsize=25)
 # ------- Define the right axis parameters------- 
 
 axr.tick_params(length=8, width=1, labelsize=22, color='steelblue', labelcolor='steelblue', axis='y')
-#axr.tick_params(length=0, which='top', axis='x')
 axr.tick_params(length=8, width=1, labelsize=22, color='black', labelcolor='black', axis='x', top=False, bottom=True)
 axr.axis([-1, 11, 10, 50])
 axr.yaxis.tick_right()
